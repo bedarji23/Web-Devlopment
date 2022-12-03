@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width 300 hi rhega */
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.mainpage{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(/photos/1.jpg); */
+    background-color: white;
+    background-repeat: no-repeat;  /*background repeat na krne k liye*/
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    
+}
+.container{
+    /* margin-top: 60%; */
+    /* position: relative; */
+    padding: 40px;
+    
+}
+.a12{
+   padding: 50px;
+   padding-left: 110px;
+   padding-right: 110px;
+   border-style: solid;
+}
+.heading{
+    text-align: center;
+}
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(10, 1, 1, 0.2);
+    color: white;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+}
+
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:first-child {
+    color: #00b894;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    color: #000;
+    
+}
+
+section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    color: #000;
+}
+
+section p {
+    font-size: 25;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+    color: #000;
+}
+
+section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+section .button1 {
+    /* background-color: #00b894; */
+    background: #00b894;
+    color: #000;
+
+}
+
+section .button2 {
+    background-color: #00b894;
+    /* background: #fff;   */
+    color: white;
+}
+
+.button1:hover {
+    background-color: #00b894;
+    /* background: #fff;   */
+    color: white;
+}
+
+.changecontent:after {
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+
+@keyframes changetext {
+    0% {
+        content: "LalBagh";
+    }
+
+    20% {
+        content: "Rajawada";
+    }
+
+    35% {
+        content: "Sarafa";
+    }
+
+    60% {
+        content: "Chappan";
+    }
+
+    80% {
+        content: "Bhawakuan";
+    }
+
+    100% {
+        content: "Khajrana";
+    }
+}
+.box{
+    display:block;
+    float: left;
+    width: 100%;
+    padding-top: 45px;
+    padding-right: 10px;
+    /* padding-left: 12px; */
+    overflow: hidden;
+}
+
+div.gallery {
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 450px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
